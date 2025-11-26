@@ -17,20 +17,20 @@
   --color-gold: var(--gold);
   --color-brown: var(--brown);
   --color-cream: var(--cream);
-  --font-sans: var(--font-raleway);
-  --font-serif: var(--font-cinzel);
+  --font-sans: var(--font-baskerville);
+  --font-serif: var(--font-playfair);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-raleway), Arial, Helvetica, sans-serif;
+  font-family: var(--font-baskerville), Georgia, serif;
 }
 
 /* Custom utility classes */
 .font-serif {
-  font-family: var(--font-cinzel), Georgia, serif;
-  font-weight: 600;
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 700;
 }
 
 .text-navy { color: var(--navy); }

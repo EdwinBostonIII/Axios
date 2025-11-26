@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Cinzel, Raleway } from "next/font/google";
+import { Playfair_Display, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 
-const cinzel = Cinzel({
-  variable: "--font-cinzel",
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
-const raleway = Raleway({
-  variable: "--font-raleway",
+const baskerville = Libre_Baskerville({
+  variable: "--font-baskerville",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cinzel.variable} ${raleway.variable} antialiased`}
+        className={`${playfair.variable} ${baskerville.variable} antialiased`}
       >
         {children}
       </body>
