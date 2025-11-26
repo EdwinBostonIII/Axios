@@ -30,15 +30,15 @@ export default function SciencePage() {
               </h2>
               <p className="text-navy/80 mb-6 leading-relaxed">
                 L-theanine is an amino acid found almost exclusively in tea (Camellia sinensis) 
-                and certain mushrooms. It crosses the blood-brain barrier and influences brain 
-                chemistry in ways that support the &quot;calm energy&quot; positioning central to AXIOS.
+                and certain mushrooms. It crosses the blood brain barrier and influences brain 
+                chemistry in ways that support the calm energy positioning central to AXIOS.
               </p>
               
               <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
                 <h4 className="font-semibold text-navy mb-3">Research Evidence</h4>
                 <p className="text-navy/70 text-sm mb-3">
                   A 2019 systematic review in <em>Plant Foods for Human Nutrition</em> analyzed 
-                  nine randomized controlled trials and found that 200-400mg per day L-theanine 
+                  nine randomized controlled trials and found that 200 to 400mg per day of this amino acid 
                   reduces stress and anxiety in stressful conditions.
                 </p>
                 <p className="text-navy/70 text-sm">
@@ -117,23 +117,39 @@ export default function SciencePage() {
               
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-white p-4 rounded">
-                  <div className="text-3xl mb-2">🌶️</div>
+                  <div className="w-10 h-10 mx-auto mb-2 rounded-full border border-navy/30 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                    </svg>
+                  </div>
                   <p className="text-navy font-semibold">TRPV1 Activation</p>
                   <p className="text-navy/60 text-sm">Warming sensation</p>
                 </div>
                 <div className="bg-white p-4 rounded">
-                  <div className="text-3xl mb-2">⚡</div>
+                  <div className="w-10 h-10 mx-auto mb-2 rounded-full border border-navy/30 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
                   <p className="text-navy font-semibold">Bioavailability</p>
-                  <p className="text-navy/60 text-sm">30-200% increase</p>
+                  <p className="text-navy/60 text-sm">30 to 200% increase</p>
                 </div>
                 <div className="bg-white p-4 rounded">
-                  <div className="text-3xl mb-2">🔥</div>
-                  <p className="text-navy font-semibold">The &quot;Bite&quot;</p>
-                  <p className="text-navy/60 text-sm">Coffee drinkers crave</p>
+                  <div className="w-10 h-10 mx-auto mb-2 rounded-full border border-navy/30 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                    </svg>
+                  </div>
+                  <p className="text-navy font-semibold">Satisfying Bite</p>
+                  <p className="text-navy/60 text-sm">Bold palates crave</p>
                 </div>
                 <div className="bg-white p-4 rounded">
-                  <div className="text-3xl mb-2">🧪</div>
-                  <p className="text-navy font-semibold">5-10%</p>
+                  <div className="w-10 h-10 mx-auto mb-2 rounded-full border border-navy/30 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                    </svg>
+                  </div>
+                  <p className="text-navy font-semibold">5 to 10%</p>
                   <p className="text-navy/60 text-sm">Of black pepper</p>
                 </div>
               </div>
@@ -146,15 +162,15 @@ export default function SciencePage() {
               </h2>
               <p className="text-navy/80 mb-6 leading-relaxed">
                 Piperine is the alkaloid responsible for black pepper&apos;s characteristic bite. 
-                It comprises 5-10% of black pepper by weight and provides benefits beyond flavor.
+                It comprises 5 to 10% of black pepper by weight and provides benefits beyond flavor.
               </p>
               
               <div className="bg-cream p-6 rounded-lg mb-6">
                 <h4 className="font-semibold text-navy mb-3">TRPV1 Receptor Activation</h4>
                 <p className="text-navy/70 text-sm">
                   McNamara et al. (2005) in <em>British Journal of Pharmacology</em> demonstrated 
-                  that piperine activates the same &quot;capsaicin receptor&quot; (TRPV1) that senses heat. 
-                  Piperine shows approximately 2-fold greater efficacy than capsaicin but lower 
+                  that piperine activates the same capsaicin receptor (TRPV1) that senses heat. 
+                  Piperine shows approximately twofold greater efficacy than capsaicin but lower 
                   potency, creating warming sensation without intense burning.
                 </p>
               </div>
@@ -199,12 +215,12 @@ export default function SciencePage() {
                   <span className="text-gold mr-2">✓</span> Ceylon (True)
                 </div>
                 <div className="p-4 text-center text-navy/70">0.004%</div>
-                <div className="p-4 text-center text-navy/70">0.01-0.03mg</div>
+                <div className="p-4 text-center text-navy/70">0.01 to 0.03mg</div>
               </div>
               <div className="grid grid-cols-3 border-b border-gold/20 bg-cream/50">
                 <div className="p-4 text-navy/70">Cassia (Common)</div>
-                <div className="p-4 text-center text-navy/70">0.4-1%</div>
-                <div className="p-4 text-center text-navy/70">5-18mg</div>
+                <div className="p-4 text-center text-navy/70">0.4 to 1%</div>
+                <div className="p-4 text-center text-navy/70">5 to 18mg</div>
               </div>
               <div className="grid grid-cols-3 bg-gold/10">
                 <div className="p-4 font-semibold text-navy">Difference</div>
@@ -215,11 +231,11 @@ export default function SciencePage() {
 
             <div className="bg-navy text-cream rounded-lg p-8 text-center">
               <p className="text-xl italic mb-4">
-                &quot;We choose rare Ceylon (&apos;true&apos;) cinnamon with naturally ultra-low coumarin, 
-                safe and delicious for daily enjoyment.&quot;
+                We choose rare Ceylon cinnamon with naturally low coumarin content, 
+                safe and delicious for daily enjoyment.
               </p>
               <p className="text-cream/70 text-sm">
-                Ceylon cinnamon costs approximately 10x more than cassia, but represents a 
+                Ceylon cinnamon costs approximately ten times more than cassia, but represents a 
                 meaningful investment in customer wellbeing alongside exceptional flavor.
               </p>
             </div>
@@ -239,41 +255,57 @@ export default function SciencePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-cream rounded-lg p-6">
-              <div className="text-3xl mb-4">🔥</div>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                </svg>
+              </div>
               <h3 className="font-serif text-xl text-navy mb-3">Acid Reflux</h3>
               <p className="text-navy/70 text-sm">
                 Coffee increases stomach acid production and relaxes the lower esophageal 
-                sphincter. 5-10% of regular coffee drinkers experience acid reflux symptoms. 
+                sphincter. 5 to 10% of regular coffee drinkers experience acid reflux symptoms. 
                 Tea does not trigger these mechanisms.
               </p>
             </div>
             
             <div className="bg-cream rounded-lg p-6">
-              <div className="text-3xl mb-4">😰</div>
-              <h3 className="font-serif text-xl text-navy mb-3">Jitters & Anxiety</h3>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-xl text-navy mb-3">Jitters and Anxiety</h3>
               <p className="text-navy/70 text-sm">
-                Tea&apos;s L-theanine reduces anxiety while maintaining alertness. It modulates 
-                caffeine absorption for smoother energy. Research shows 43% of anxiety-prone 
-                patients experienced panic attacks after high caffeine doses.
+                Tea&apos;s natural properties reduce anxiety while maintaining alertness, modulating 
+                caffeine absorption for smoother energy. Research shows 43% of those prone to anxiety 
+                experienced panic attacks after high caffeine doses.
               </p>
             </div>
             
             <div className="bg-cream rounded-lg p-6">
-              <div className="text-3xl mb-4">📉</div>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
+                </svg>
+              </div>
               <h3 className="font-serif text-xl text-navy mb-3">Afternoon Crashes</h3>
               <p className="text-navy/70 text-sm">
-                Coffee&apos;s rapid caffeine spike leads to corresponding crashes. Tea&apos;s combination 
-                of caffeine and L-theanine creates sustained, even energy without the 
-                rollercoaster effect.
+                Coffee&apos;s rapid caffeine spike leads to corresponding crashes. Tea creates 
+                sustained, even energy without the rollercoaster effect that disrupts 
+                productivity.
               </p>
             </div>
             
             <div className="bg-cream rounded-lg p-6">
-              <div className="text-3xl mb-4">😴</div>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+              </div>
               <h3 className="font-serif text-xl text-navy mb-3">Sleep Disruption</h3>
               <p className="text-navy/70 text-sm">
-                Coffee&apos;s 8+ hour half-life means afternoon consumption affects sleep quality. 
-                Tea offers lower caffeine alternatives and caffeine-free options like our 
+                Coffee&apos;s 8+ hour half life means afternoon consumption affects sleep quality. 
+                Tea offers lower caffeine alternatives and options naturally without caffeine like our 
                 Hesychia for evening consumption.
               </p>
             </div>

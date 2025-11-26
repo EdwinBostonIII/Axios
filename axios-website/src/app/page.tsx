@@ -45,8 +45,8 @@ export default function Home() {
 
             {/* Subheadline */}
             <p className="text-cream/80 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
-              Bold, complex spiced black teas crafted for coffee converts. 
-              Experience the calm focus of L-theanine without the jitters.
+              Bold, complex spiced black teas crafted for discerning palates. 
+              Experience the calm focus that only tea can deliver.
             </p>
 
             {/* CTA Buttons */}
@@ -103,7 +103,7 @@ export default function Home() {
               </div>
               <h3 className="font-serif text-xl text-navy mb-4">Calm, Focused Energy</h3>
               <p className="text-navy/70">
-                L-theanine in tea creates smooth, sustained alertness without the jitters or afternoon crash. 
+                Tea&apos;s natural properties create smooth, sustained alertness without the jitters or afternoon crash. 
                 Stay sharp from dawn to dusk.
               </p>
             </div>
@@ -174,15 +174,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Founder Story Teaser */}
+      {/* Brand Story Teaser */}
       <section className="py-20 bg-navy text-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Image Placeholder */}
             <div className="aspect-square bg-brown/20 rounded-lg flex items-center justify-center">
               <div className="text-center p-8">
-                <span className="text-6xl mb-4 block">🍵</span>
-                <p className="text-cream/50 text-sm">Founder Image</p>
+                <svg className="w-24 h-24 mx-auto text-gold/60 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <p className="text-cream/50 text-sm">Brand Portrait</p>
               </div>
             </div>
 
@@ -190,23 +192,23 @@ export default function Home() {
             <div>
               <p className="text-gold uppercase tracking-widest text-sm mb-4">Our Story</p>
               <h2 className="font-serif text-3xl md:text-4xl text-cream mb-6">
-                From Coffee Addict to Tea Artisan
+                A Worthy Alternative
               </h2>
               <p className="text-cream/80 mb-6 leading-relaxed">
-                I used to drink six cups of coffee a day. The jitters, the acid reflux, 
-                the 3 PM crashes—I thought that was just the price of staying sharp. 
-                Then I discovered what tea could actually be.
+                AXIOS was founded for those who have accepted the trade-offs of their morning 
+                ritual as inevitable. The jitters. The digestive distress. The afternoon collapse. 
+                There had to be something better.
               </p>
               <p className="text-cream/80 mb-8 leading-relaxed">
-                Not the weak, floral stuff that left me reaching for another espresso. 
-                Real tea. Bold, spiced, complex chai that stood up to my coffee palate 
-                and delivered something coffee never could: calm, sustained focus.
+                The discovery of traditional spiced black tea changed everything. Here was something 
+                bold, warming, and complex. Tea that stands on its own merit and delivers what coffee 
+                never could: calm, sustained focus without the turbulence.
               </p>
               <Link
                 href="/about"
                 className="btn-secondary px-6 py-3 rounded font-semibold uppercase tracking-wider inline-block"
               >
-                Read the Full Story
+                Discover the Full Story
               </Link>
             </div>
           </div>
@@ -225,29 +227,45 @@ export default function Home() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl mb-4">🌿</div>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                </svg>
+              </div>
               <h3 className="font-serif text-lg text-navy mb-2">Ceylon Cinnamon</h3>
               <p className="text-navy/70 text-sm">
-                250x less coumarin than cassia—safe for daily enjoyment
+                250 times less coumarin than cassia, safe for daily enjoyment
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-4">🫖</div>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
               <h3 className="font-serif text-lg text-navy mb-2">CTC Assam Base</h3>
               <p className="text-navy/70 text-sm">
                 Robust, malty tea that cuts through milk and spices
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-4">✋</div>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                </svg>
+              </div>
               <h3 className="font-serif text-lg text-navy mb-2">Small Batch</h3>
               <p className="text-navy/70 text-sm">
-                Hand-blended in Hudson Falls, New York
+                Crafted by hand in Hudson Falls, New York
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-4">📦</div>
-              <h3 className="font-serif text-lg text-navy mb-2">Eco-Conscious</h3>
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full border-2 border-gold flex items-center justify-center">
+                <svg className="w-6 h-6 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-lg text-navy mb-2">Eco Conscious</h3>
               <p className="text-navy/70 text-sm">
                 Kraft packaging with sustainability in mind
               </p>
@@ -263,8 +281,8 @@ export default function Home() {
             Ready to Transform Your Morning?
           </h2>
           <p className="text-navy/80 text-lg mb-8">
-            Join thousands who&apos;ve discovered what tea can really be. 
-            Start with our Signature Kairos blend—the perfect introduction to AXIOS.
+            Join those who have discovered what tea can truly be. 
+            Begin with our Signature Kairos blend, the perfect introduction to AXIOS.
           </p>
           <Link
             href="/teas/kairos"

@@ -42,7 +42,7 @@ export default function TeasPage() {
             <div className="p-6">
               <h3 className="font-serif text-xl text-navy mb-3">Ceylon Cinnamon Only</h3>
               <p className="text-navy/70 text-sm">
-                We choose rare Ceylon cinnamon with naturally ultra-low coumarin—safe 
+                We choose rare Ceylon cinnamon with naturally low coumarin content, safe 
                 and delicious for daily enjoyment.
               </p>
             </div>
@@ -73,21 +73,21 @@ export default function TeasPage() {
                 <span className="text-navy font-bold">1</span>
               </div>
               <h4 className="font-semibold mb-2">Measure</h4>
-              <p className="text-cream/70 text-sm">2.5-3g of tea per 6oz water</p>
+              <p className="text-cream/70 text-sm">2.5 to 3g of tea per 6oz water</p>
             </div>
             <div>
               <div className="w-12 h-12 bg-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-navy font-bold">2</span>
               </div>
               <h4 className="font-semibold mb-2">Heat</h4>
-              <p className="text-cream/70 text-sm">200-212°F depending on blend</p>
+              <p className="text-cream/70 text-sm">200 to 212°F depending on blend</p>
             </div>
             <div>
               <div className="w-12 h-12 bg-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-navy font-bold">3</span>
               </div>
               <h4 className="font-semibold mb-2">Steep</h4>
-              <p className="text-cream/70 text-sm">3-5 minutes for optimal flavor</p>
+              <p className="text-cream/70 text-sm">3 to 5 minutes for optimal flavor</p>
             </div>
             <div>
               <div className="w-12 h-12 bg-gold rounded-full flex items-center justify-center mx-auto mb-4">

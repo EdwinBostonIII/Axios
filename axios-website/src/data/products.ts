@@ -39,7 +39,7 @@ export const products: Product[] = [
     brewingInstructions: {
       amount: "2.5g per 6oz",
       temperature: "200°F",
-      time: "3-4 minutes"
+      time: "3 to 4 minutes"
     },
     caffeine: "Moderate (~50mg per cup)",
     price: 22.00,
@@ -63,7 +63,7 @@ export const products: Product[] = [
     brewingInstructions: {
       amount: "3g per 6oz",
       temperature: "212°F (boiling)",
-      time: "4-5 minutes"
+      time: "4 to 5 minutes"
     },
     caffeine: "High (~60mg per cup)",
     price: 24.00,
@@ -81,15 +81,15 @@ export const products: Product[] = [
     scripture: "Be still, and know that I am God.",
     scriptureRef: "Psalm 46:10",
     visualElement: "Crescent moon with olive branch",
-    description: "Our beloved spice profile on a caffeine-free rooibos base—perfect for evening enjoyment.",
-    longDescription: "Hesychia (ἡσυχία) means 'quietness, stillness, rest' and appears in the epistles as a virtue of contemplative peace (1 Thessalonians 4:11). Same beloved spice profile on a caffeine-free rooibos base. Allows customers to enjoy AXIOS throughout the day without caffeine concerns. Rooibos is naturally 100% caffeine-free, has very low tannins, and offers natural vanilla-like sweetness.",
+    description: "Our beloved spice profile on a rooibos base, naturally without caffeine. Perfect for evening enjoyment.",
+    longDescription: "Hesychia (ἡσυχία) means 'quietness, stillness, rest' and appears in the epistles as a virtue of contemplative peace (1 Thessalonians 4:11). Same beloved spice profile on a rooibos base, naturally without caffeine. Allows customers to enjoy AXIOS throughout the day. Rooibos is naturally without caffeine, has very low tannins, and offers natural notes of vanilla.",
     ingredients: ["South African Rooibos", "Green Cardamom", "Black Pepper", "Ginger", "Ceylon Cinnamon", "Cloves", "Nutmeg", "Star Anise", "Mace"],
     brewingInstructions: {
       amount: "2.5g per 6oz",
       temperature: "212°F (boiling)",
-      time: "5-7 minutes"
+      time: "5 to 7 minutes"
     },
-    caffeine: "Caffeine-Free (0mg)",
+    caffeine: "Naturally Without Caffeine (0mg)",
     price: 22.00,
     size: "2 oz",
     cups: "~22 cups",
@@ -105,15 +105,15 @@ export const products: Product[] = [
     scripture: "But ye are a chosen generation, a royal priesthood, a holy nation.",
     scriptureRef: "1 Peter 2:9",
     visualElement: "Golden leaf with crown",
-    description: "Single-origin second flush Assam with premium whole spices—our most refined expression.",
-    longDescription: "Eklektos (ἐκλεκτός) means 'chosen, elect, select' and appears in Matthew 22:14: 'Many are called, but few are chosen.' Single-origin second flush Assam with premium whole spices for the elevated price point. This product targets gift giving and special occasions, featuring traceable origin and hand-selected ingredients from renowned growing regions.",
+    description: "Single estate second flush Assam with premium whole spices. Our most refined expression.",
+    longDescription: "Eklektos (ἐκλεκτός) means 'chosen, elect, select' and appears in Matthew 22:14: 'Many are called, but few are chosen.' Single estate second flush Assam with premium whole spices for the elevated price point. This product targets gift giving and special occasions, featuring traceable origin and ingredients selected by hand from renowned growing regions.",
     ingredients: ["Second Flush Assam TGFOP", "Guatemalan Green Cardamom", "Tellicherry Black Peppercorns", "Kerala Dried Ginger", "Sri Lankan Ceylon Cinnamon", "Zanzibar Whole Cloves", "Grenadian Nutmeg", "Vietnamese Star Anise", "Indonesian Mace"],
     brewingInstructions: {
       amount: "3g per 6oz",
       temperature: "200°F",
-      time: "4-5 minutes"
+      time: "4 to 5 minutes"
     },
-    caffeine: "Moderate-High (~55mg per cup)",
+    caffeine: "Moderate to High (~55mg per cup)",
     price: 38.00,
     size: "2 oz tin",
     cups: "~22 cups",
@@ -129,8 +129,8 @@ export const products: Product[] = [
     scripture: "My grace is sufficient for thee: for my strength is made perfect in weakness.",
     scriptureRef: "2 Corinthians 12:9",
     visualElement: "Radiating golden rays",
-    description: "Pre-sweetened instant chai powder for quick, convenient preparation without compromise.",
-    longDescription: "Charis (χάρις) means 'grace, favor, gift' and is one of the most frequent words in the New Testament, describing unmerited blessing freely given. Pre-sweetened instant chai powder for quick preparation. Targets convenience seekers and office consumption. Designed for mixing with hot water or milk, bringing the AXIOS experience to moments when time is short but quality still matters.",
+    description: "Presweetened instant chai powder for quick, convenient preparation without compromise.",
+    longDescription: "Charis (χάρις) means 'grace, favor, gift' and is one of the most frequent words in the New Testament, describing unmerited blessing freely given. Presweetened instant chai powder for quick preparation. Targets convenience seekers and office consumption. Designed for mixing with hot water or milk, bringing the AXIOS experience to moments when time is short but quality still matters.",
     ingredients: ["Instant Black Tea Powder", "Coconut Milk Powder", "Coconut Sugar", "Cardamom", "Ginger", "Cinnamon", "Black Pepper", "Cloves", "Turmeric"],
     brewingInstructions: {
       amount: "2 tbsp per 8oz",

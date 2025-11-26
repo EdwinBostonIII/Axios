@@ -17,8 +17,8 @@
   --color-gold: var(--gold);
   --color-brown: var(--brown);
   --color-cream: var(--cream);
-  --font-sans: var(--font-lato);
-  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-source-sans);
+  --font-serif: var(--font-cormorant);
 }
 
 body {

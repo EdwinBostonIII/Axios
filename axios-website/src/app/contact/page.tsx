@@ -138,7 +138,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-navy mb-1">Email</h3>
                     <p className="text-navy/70">hello@axiosteaco.com</p>
-                    <p className="text-navy/50 text-sm">We typically respond within 24-48 hours</p>
+                    <p className="text-navy/50 text-sm">We typically respond within 24 to 48 hours</p>
                   </div>
                 </div>
 
@@ -212,7 +212,7 @@ export default function ContactPage() {
               <p className="text-navy/70">
                 Store in a cool, dry place away from direct sunlight and strong odors. 
                 Our resealable pouches help maintain freshness. Best enjoyed within 
-                3-6 months of purchase for optimal flavor.
+                three to six months of purchase for optimal flavor.
               </p>
             </div>
 
@@ -232,8 +232,8 @@ export default function ContactPage() {
               </h3>
               <p className="text-navy/70">
                 Kairos is our balanced everyday chai. Dynamis has increased spice for 
-                maximum intensity. Hesychia is caffeine-free on a rooibos base. 
-                Eklektos features single-origin tea with premium whole spices. 
+                maximum intensity. Hesychia is naturally without caffeine on a rooibos base. 
+                Eklektos features single estate tea with premium whole spices. 
                 Charis is a convenient instant latte mix.
               </p>
             </div>
@@ -254,8 +254,8 @@ export default function ContactPage() {
                 Do you offer subscriptions?
               </h3>
               <p className="text-navy/70">
-                Yes! Subscribe and save 10-15% on your favorite blends. 
-                Flexible scheduling, easy skip or cancel anytime.
+                Yes! Subscribe and save 10 to 15% on your favorite blends. 
+                Flexible scheduling, easy to skip or cancel anytime.
               </p>
             </div>
           </div>
